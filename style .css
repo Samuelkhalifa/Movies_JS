@@ -1,0 +1,61 @@
+/*GENERALS*/
+body {
+    margin: 0 auto;
+    background-color: rgb(63, 63, 63);
+}
+
+/*NAVBAR*/
+nav {
+    min-height: 75px;
+}
+.search-bar-container button {
+    width: 150px;
+}
+
+
+/*SEARCHING CONTAINER*/
+
+input {
+    border-radius: 5px;
+}
+.search-bar-container {
+    margin-top: 40px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+.search-bar {
+    width: 250px;
+    margin-bottom: 40px;
+}
+.search-list-container {
+    width: 250px;
+}
+.search-list {
+    background-color: rgb(194, 194, 194);
+    max-height: 100px;
+    overflow-y: scroll; 
+    visibility: hidden;  
+}
+
+
+/*DISPLAYING CONTAINER*/
+.display-container {
+    margin-left: 5%;
+    margin-right: 5%;
+    min-width: 350px;
+}
+.movies-display {
+    margin-bottom: 25px;
+
+}
+.one-movie-display {
+    background-color: rgb(163, 163, 163);
+    display: flex;
+}
+.pic-area {
+    margin-right: 20px;
+}
+img {
+    height: 345px;
+    width: 231px;
+}
